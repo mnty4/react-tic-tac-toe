@@ -8,7 +8,7 @@ function App() {
   let [isWin, setIsWin] = useState(false);
   let [crossWin, setCrossWin] = useState(0);
   let [naughtWin, setNaughtWin] = useState(0);
-  let [showPrompt, setShowPrompt] = useState(false);
+  let [showPrompt, setShowPrompt] = useState(true);
   let [promptMessage, setPromptMessage] = useState("Unkown");
   function winHandler(isCrossWin) {
     if (isCrossWin === "draw");
@@ -37,7 +37,17 @@ function App() {
     <React.Fragment>
       {showPrompt && (
         <React.Fragment>
-          <div className={classes.greyOut} onClick={togglePrompt}></div>
+          <div className={classes.greyOut} onClick={togglePrompt}>
+            {/* <div className={`card ${classes.card}`}>
+              <div className={`card-block ${classes.cardBlock}`}>
+                <h3 className="card-title">{promptMessage}</h3>
+                <br />
+                <button className="btn btn-primary" onClick={togglePrompt}>
+                  close
+                </button>
+              </div>
+            </div> */}
+          </div>
           <div className={classes.cardBody}>
             <div className={`card ${classes.card}`}>
               <div className={`card-block ${classes.cardBlock}`}>
