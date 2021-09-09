@@ -8,7 +8,7 @@ function App() {
   let [isWin, setIsWin] = useState(false);
   let [crossWin, setCrossWin] = useState(0);
   let [naughtWin, setNaughtWin] = useState(0);
-  let [showPrompt, setShowPrompt] = useState(true);
+  let [showPrompt, setShowPrompt] = useState(false);
   let [promptMessage, setPromptMessage] = useState("Unkown");
   function winHandler(isCrossWin) {
     if (isCrossWin === "draw");
