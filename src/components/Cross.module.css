@@ -1,0 +1,47 @@
+.cross {
+  font-size: 9rem;
+  padding-bottom: 1.8rem;
+  color: #fff;
+  /* height: 100%;
+  width: 100%; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.x {
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 2px;
+  border: solid 2px #fff;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.x.large {
+  width: 30px;
+  height: 30px;
+}
+p::after {
+  width: 8px;
+  display: block;
+  height: 100px;
+  background-color: #fff;
+}
+
+.verticalLine {
+  width: 8px;
+  height: 100%;
+  background-color: #fff;
+  /* transform: rotate(45deg); */
+  z-index: 5;
+}
+.horizontalLine {
+  width: 100%;
+  height: 8px;
+  background-color: #fff;
+  /* transform: rotate(45deg); */
+  z-index: 4;
+}
