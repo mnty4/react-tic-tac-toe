@@ -61,7 +61,7 @@ function Board(props) {
   }
   return (
     <React.Fragment>
-      <h2>{isCross ? "Cross" : "Naught"}'s turn</h2>
+      <h2>{isCross ? "Cross" : "Nought"}'s turn</h2>
       <div className={classes.container}>
         <Square
           toggleCross={toggleCross}

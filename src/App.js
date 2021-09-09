@@ -37,17 +37,7 @@ function App() {
     <React.Fragment>
       {showPrompt && (
         <React.Fragment>
-          <div className={classes.greyOut} onClick={togglePrompt}>
-            {/* <div className={`card ${classes.card}`}>
-              <div className={`card-block ${classes.cardBlock}`}>
-                <h3 className="card-title">{promptMessage}</h3>
-                <br />
-                <button className="btn btn-primary" onClick={togglePrompt}>
-                  close
-                </button>
-              </div>
-            </div> */}
-          </div>
+          <div className={classes.greyOut} onClick={togglePrompt}></div>
           <div className={classes.cardBody}>
             <div className={`card ${classes.card}`}>
               <div className={`card-block ${classes.cardBlock}`}>
@@ -63,7 +53,7 @@ function App() {
       )}
       <div className={classes.container}>
         <header className={classes.header}>
-          <h1 className={classes.title}>Naughts And Crosses</h1>
+          <h1 className={classes.title}>Noughts And Crosses</h1>
         </header>
         <main className={classes.game}>
           <Board
