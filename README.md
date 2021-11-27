@@ -1,6 +1,3 @@
-### This game is currently deployed at: https://main.dczq1woxevc46.amplifyapp.com/
-
-
 # Tic Tac Toe
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
